@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #2f2f2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header{
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+
+.header-container{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+}
+
+.header-container h1{
+  font-size: 3.0rem;
+  font-weight: 900;
+  line-height: 1.0;
+}
+
+.navigation nav ul{
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.navigation nav ul li a{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.manga{
+  border: 2px solid rgb(85, 180, 243);
+  padding: 1.0rem;
+  border-radius:10px;
+}
+
+#hero{
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 176px);
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  gap: 5.0rem;
+  padding: 0 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+  gap: 2.0rem;
+}
+
+.hero-title h2{
+  font-size: 4.0rem;
+  font-weight: 900;
+}
+.hero-title h2 span{
+  color: rgb(85, 180, 243);
+}
+
+.hero-content p{
+  font-size: 1.3rem;
+}
+
+.hero-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-form input{
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.hero-form button{
+  padding: 0.5rem;
+  background-color: rgb(85, 180, 243);
+  color: white;
+  font-size: 1.2rem;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.hero-img {
+  display: flex;
+  width: 100%;
+  max-width: 479px;
+}
+
+.hero-img img{
+  display: flex;
+  width: 100%;
+  max-width: 479px;
+}
